@@ -1,45 +1,63 @@
+/* :root{
+    var
+} */
 body{
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(248, 242, 232);
     margin: 50px;   
 }
 div.recipe_header{
     display: flex;
-    width: 100%;
+    margin:auto;
+    width: fit-content;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 div.recipe_header_name{
-    font-size: 3em;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-size: 6em;
+    /* font-style: italic; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: 500;
+    color: rgb(172, 84, 11);
+    /* text-shadow: -1px -1px 0 rgb(116, 55, 6), 1px -1px 0 rgb(116, 55, 6), -1px 1px 0 rgb(116, 55, 6), 1px 1px 0 rgb(116, 55, 6); */
+    /* text-shadow: 5px 5px 10px rgba(58, 41, 19, 0.24), 20px 20px 20px rgba(58, 41, 19,.15), 30px 30px 30px rgba(58, 41, 19,.1); */
+}
+
+div.recipe_header_author_intro{
+    font-size: 1.4em;
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 div.recipe_header_author{
-    font-size: 1.4em;
-    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 5px;
+    font-family: 'Birthstone Bounce', cursive;
 }
 
 div.container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 85%;
+    width: 60%;
+    min-width: 600px;
     padding: 25px;
-    border: 1px gray solid;
+    border: 1px rgb(138, 113, 93) solid;
     border-radius: 5px;
     margin:auto;
-    margin-top:50px;
+    margin-top:30px;
     box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.12);
-    background-color: white;
+    background-color: rgb(255, 254, 252);
 }
 
 h2{
-    font-size: 1.5em;
-    font-family: 'Playfair Display', serif;
-    /* font-weight: 700; */
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 li{
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
